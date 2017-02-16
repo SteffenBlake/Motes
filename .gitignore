@@ -3,6 +3,7 @@
 *.ko
 *.obj
 *.elf
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -32,10 +33,9 @@
 *.dSYM/
 *.su
 
-[Bb]in
-[Dd]ebug*/
 *.sbr
 obj/
 [Rr]elease*/
 _ReSharper*/
 packages
+Motes/bin/Debug/Motes.exe.config
