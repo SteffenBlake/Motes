@@ -13,7 +13,8 @@ namespace Motes
 
         static void Main(string[] a)
         {
-            if (a.Count() != 1 && !testing) {
+            if (a.Count() != 1 && !testing)
+            {
                 Console.WriteLine("Error: Incorrect paramaters count, please provide one file!");
             } else {
                 string p = testing ? testfile : a[0];
@@ -32,60 +33,72 @@ namespace Motes
                 Dictionary<char, Action> d = new Dictionary<char, Action>();
                 List<(char, int)> j = new List<(char, int)>();
 
-                d['+'] = () => { x[n]++; if (verbose) { Console.WriteLine("Inc@" + n.ToString()); } }; 
-                d['-'] = () => { x[n]--; if (verbose) { Console.WriteLine("Dec@" + n.ToString()); } };
-                d['>'] = () => {
+                d['👍'] = () => { x[n]++; if (verbose) { Console.WriteLine("Inc@" + n.ToString()); } }; 
+                d['👎'] = () => { x[n]--; if (verbose) { Console.WriteLine("Dec@" + n.ToString()); } };
+                d['👉'] = () => {
                     if (verbose) { Console.WriteLine(">@" + n.ToString()); }
                     n++;
                     if (n == x.Count) { x.Add(0); }
                 };
-                d['<'] = () => {
+                d['👈'] = () => {
                     if (verbose) { Console.WriteLine("<@" + n.ToString()); }
                     if (n == 0) { x.Insert(0, 0); return; };
                     n--;
                 };
 
-                d['s'] = () => { (x[n], m) = (m, x[n]); if (verbose) { Console.WriteLine("Swap"); } }; //swap
-                d['w'] = () => { m = x[n]; if (verbose) { Console.WriteLine("Write"); } }; //write
-                d['r'] = () => { x[n] = m; if (verbose) { Console.WriteLine("Read Mem"); } }; //read
-                d['?'] = () => { x[n] = f; if (verbose) { Console.WriteLine("Read Func"); } }; //readfunction
+                d['🔃'] = () => { (x[n], m) = (m, x[n]); if (verbose) { Console.WriteLine("Swap"); } }; //swap
+                d['✍'] = () => { m = x[n]; if (verbose) { Console.WriteLine("Write"); } }; //write
+                d['📖'] = () => { x[n] = m; if (verbose) { Console.WriteLine("Read Mem"); } }; //read
+                d['🌀'] = () => { x[n] = f; if (verbose) { Console.WriteLine("Read Func"); } }; //readfunction
 
-                d['^'] = () => { Console.Write(x[n].ToString()); }; //write raw
-                d['*'] = () => { Console.Write((char)(x[n])); };
+                d['💯'] = () => { Console.Write(x[n].ToString()); }; //write raw
+                d['💬'] = () => { Console.Write((char)(x[n])); };
 
-                d[']'] = () => { //!0 loop
+                d['✔'] = () => { //=0 loop
                     if (m == 0) return;
                     int t = 1;
                     while (t > 0)
                     {
-                        if (verbose) { Console.WriteLine("Roll Back for [, found " + q[y]); }
+                        if (verbose) { Console.WriteLine("Roll Back for 🔗, found " + q[y]); }
                         y--;
-                        if (q[y] == ']') { t++; }
-                        if (q[y] == '[') { t--; }
+                        if (q[y] == '✔') { t++; }
+                        if (q[y] == '🔗') { t--; }
                     }
                 };
 
-                d[')'] = () => { //>0 loop
+                d['✖'] = () => { //!0 loop
+                    if (m != 0) return;
+                    int t = 1;
+                    while (t > 0)
+                    {
+                        if (verbose) { Console.WriteLine("Roll Back for 🔗, found " + q[y]); }
+                        y--;
+                        if (q[y] == '✖') { t++; }
+                        if (q[y] == '🔗') { t--; }
+                    }
+                };
+
+                d['➕'] = () => { //>0 loop
                     if (m > 0) return;
                     int t = 1;
                     while (t > 0)
                     {
-                        if (verbose) { Console.WriteLine("Roll Back for (, found " + q[y]); }
+                        if (verbose) { Console.WriteLine("Roll Back for 🔗, found " + q[y]); }
                         y--;
-                        if (q[y] == ')') { t++; }
-                        if (q[y] == '(') { t--; }
+                        if (q[y] == '➕') { t++; }
+                        if (q[y] == '🔗') { t--; }
                     }
                 };
 
-                d['}'] = () => { //<0 loop
+                d['➖'] = () => { //<0 loop
                     if (m < 0) return;
                     int t = 1;
                     while (t > 0)
                     {
-                        if (verbose) { Console.WriteLine("Roll Back for {, found " + q[y]); }
+                        if (verbose) { Console.WriteLine("Roll Back for 🔗, found " + q[y]); }
                         y--;
-                        if (q[y] == '}') { t++; }
-                        if (q[y] == '{') { t--; }
+                        if (q[y] == '➖') { t++; }
+                        if (q[y] == '🔗') { t--; }
                     }
                 };
 
@@ -96,7 +109,7 @@ namespace Motes
                         if(verbose) { Console.WriteLine("Scanning for ☺, found " + q[y]); }
                         y++; };
                 };
-                d['%'] = () =>
+                d['👏'] = () =>
                 {
                     if (!j.Any()) { return; };
                     if (verbose) { Console.WriteLine("Jmp:" + j.Last().Item1 + "=>" + j.Last().Item2); }
@@ -105,13 +118,13 @@ namespace Motes
                     j.Remove(j.Last());
                 };
 
-                d['f'] = () => { x = x.Select(v => 0).ToList(); if (verbose) { Console.WriteLine("Flush"); } }; //flush
-                d['0'] = () => { n = 0; if (verbose) { Console.WriteLine("Reset"); } }; //reset
+                d['💦'] = () => { x = x.Select(v => 0).ToList(); if (verbose) { Console.WriteLine("Flush"); } }; //flush
+                d['🔚'] = () => { n = 0; if (verbose) { Console.WriteLine("Reset"); } }; //reset
 
-                d['#'] = () => { c = !c; }; //Commenting
+                d['👻'] = () => { c = !c; }; //Commenting
                 d['\n'] = () => { c = false; }; //end comments on newline
-                d['v'] = () => { Console.WriteLine(); }; //Newline
-                d['!'] = () => { Console.ReadKey();}; //Breakpoint
+                d['👌'] = () => { Console.WriteLine(); }; //Newline
+                d['✋'] = () => { Console.ReadKey();}; //Breakpoint
 
                 while (y < q.Length)
                 {
