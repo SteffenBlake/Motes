@@ -135,5 +135,53 @@ Finally for the most important part of Motes! If you find chunks of your code ge
 
 Here's a list of all the Emoji you can bind to functions (You will probably notice a pattern ;)
 
-## 😁 😂 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 😚 😐 😶 😏 😣 😥 😪 😫 😷
-## 😌 😜 😝 😒 😓 😔 😲 😖 😞 😤 😢 😭 😨 😩 😰 😱 😳 😵 😡 😠 😇
+# 😁 😂 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 😚 😐 😶 😏 😣 😥 😪 😫 😷
+# 😌 😜 😝 😒 😓 😔 😲 😖 😞 😤 😢 😭 😨 😩 😰 😱 😳 😵 😡 😠 😇
+
+To begin, start by declaring your function anywhere in your code. Most people will often put them at the end after your main code.
+
+You declare the function using the symbol 💾 followed by a smiley face emoji. You then finish the function with the 👏.
+
+For example, the following code will declare a 😎 function that prints out both the number and the character of your current pointed index:
+
+# 💾😎💯👌💬👌👏
+
+Then whenever you use 😎 will do that chunk of code!
+
+**Important: If you try and declare the same function twice, Motes will get mad at you and give you errors! Don't use the same one twice!**
+
+Now you were probably what the deal with 🌀 is, right? Here's where it gets interesting!
+
+When you use a function, that code chunk gets its own temporary index, pointer, fresh memory, everything! It's like a program in your program. When it finishes, it'll look at the current value of *its* pointed index and *write that to the 🌀 of the program that ran it!*
+
+Furthermore, the value of your current memory will get passed *into* the function and written to *its* first index before it starts, which can be very useful. If you want to avoid that, consider having a 💩 at the start of your function to get rid of it!
+
+It should also be noted you can declare functions inside of functions, except for themselves. The reason is you can make functions call themselves. In programming we call this *recursion* and there are lots of cool tricks you can do with it. We won't cover that here but if you are curious, you can find lots of info on recursion all over the internet!
+
+## Write your first program
+
+So let's do a basic test program. Here's the code:
+
+## 🔗👍✍😎➖
+
+##💾😎💯👌💬👌✋👏
+
+How does this work? Well first on the second line you can see we declared(💾) a function(😎) and told it to print(💯) it as a number, print(👌) a new line, print(💬) the value as a character, print(👌) another newline, and then pause(✋) for input. Finally we end(👏) the function.
+
+Basically now whenever we call 😎, it will print out the number and the character every time.
+
+As for the actual code at the top, what does that do?
+
+Well we first start(🔗) a loop(➖) that will keep going until the value in memory is negative. You'll notice we never do a decrease(👎) here so it seems like this program will just loop forever.
+
+Inside the program all we do is first increase(👍) the value of our index, then write(✍) it to memory. We then call 😎 which will of course print that value out as we asked it to. Then we loop back.
+
+In other words, this program will loop through and print every character for you and its associated value. Useful! (Run it and see what happens when you print character 7, make sure your speaker is turned on)
+
+If you have any questions, you can always email me at steffen.cole.blake@gmail.com
+
+
+# Contributing to the repo
+I hope you enjoyed this brief tutorial on Motes. If you'd like to join in on this open source project, feel free to jump right in! All submissions for pull requests must test to be fully working, and must not remove currently existing features unless explicitly explained and verified.
+
+Take care and have a good day!
