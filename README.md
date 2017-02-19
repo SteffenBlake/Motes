@@ -7,6 +7,8 @@ Step 1: Grab your latest install zip of Motes from the link below!
 
 Step 2: Unzip the folder to a spot wherever you please, then open it and run Installer.exe located within. This will setup your version of Motes and get everything ready.
 
+[Latest Release V1.0.1.0](https://github.com/SteffenBlake/Motes/releases/download/1.0.1.0/Motes.-.v1.0.1.0.zip)
+
 Step 3: Make sure you restart your computer for the changes to apply!
 
 Step 4: Download your choice of editor. It needs to be capable of handling emoji! [Visual Studio Code](https://code.visualstudio.com/) works quite well!
