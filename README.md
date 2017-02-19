@@ -150,11 +150,11 @@ For example, the following code will declare a 😎 function that prints out bot
 
 # 💾😎💯👌💬👌👏
 
-Then whenever you use 😎 will do that chunk of code!
+Then whenever you use 😎, it will do that chunk of code!
 
 **Important: If you try and declare the same function twice, Motes will get mad at you and give you errors! Don't use the same one twice!**
 
-Now you were probably what the deal with 🌀 is, right? Here's where it gets interesting!
+Now you were probably wondering what the deal with 🌀 is, right? Here's where it gets interesting!
 
 When you use a function, that code chunk gets its own temporary index, pointer, fresh memory, everything! It's like a program in your program. When it finishes, it'll look at the current value of *its* pointed index and *write that to the 🌀 of the program that ran it!*
 
