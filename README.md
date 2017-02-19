@@ -17,7 +17,7 @@ Step 4: Download your choice of editor. It needs to be capable of handling emoji
 
 Step 5: Create a .mot file anywhere you like on your computer and put some code in it (keep reading to learn how it works!)
 
-Step 6: Save it, then go to where you saved it and run the .mot file (double clicking should do the job!)
+Step 6: Save it as a .mot (important), then go to where you saved it and run the .mot file (double clicking should do the job!)
 
 It's that easy!
 
