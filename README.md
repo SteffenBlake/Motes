@@ -4,6 +4,7 @@ Motes is a new Emoji based programming language, designed for simplicity and fun
 ### Get Started! 😄
 
 Step 1: Make sure you have your .net libraries up to date on your computer, you can download them from microsoft at the link below:
+
 [.NET 4.5](https://www.microsoft.com/en-ca/download/details.aspx?id=30653)
 
 Step 2: Grab your latest install zip of Motes from the link below!
