@@ -100,7 +100,7 @@ It should be noted that a second 👻 on the same line will re-enable code after
 
 **<But on a newline code will start working again!>**👻*<Unless you put another at the end!>*
 
-## Looping
+## 🔗 Looping 🔗
 Writing the same code over and over is not just boring, but inefficient! Loops let you do repetative tasks easily! If you've ever worked with BEDMAS and recall how Brackets worked, it's basically the same thing!
 Whenever you hit the end point of a loop the program will check the value you have in your memory (📖). If its condition does not get satisfied, it will move back to the start of the loop and try again. Be careful, if you do not set your code up right you can get stuck in infinite loops!
 
@@ -108,22 +108,32 @@ Whenever you hit the end point of a loop the program will check the value you ha
 To start you will need a chain link, this sets the left side of your loop, it doesn't actually *do* anything, but you wil definitely need these if you want to make loops!
 
 # ➕ : Positive Loop
-When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is positive. If not, you'll loop back to its 🔗
+When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is **positive**. If not, you'll loop back to its 🔗
 
-# ➖ : Positive Loop
-When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is negative. If not, you'll loop back to its 🔗
+# ➖ : Negative Loop
+When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is **negative**. If not, you'll loop back to its 🔗
 
-# ➕ : Positive Loop
-When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is positive. If not, you'll loop back to its 🔗
+# ✔ : Equals Loop
+When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is **equal to zero**. If not, you'll loop back to its 🔗
 
-# ➕ : Positive Loop
-When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is positive. If not, you'll loop back to its 🔗
+# ✖ : Not Equals Loop
+When you hit this Emoji, you will exit the loop if the current value in Memory(📖) is **not equal to zero**. If not, you'll loop back to its 🔗
 
-
-
-
-
+About chains:
+It should be noted you can nest chains, which means put them inside of each other. For example:
 
 
+🔗<Some code>🔗<Some more code>➕➖
 
+In this example, <Some code> is an outer loop checking ➖, and <Some more code> will run as an inner loop checking ➕, neat, huh? You can also imagine it in your head like this:
 
+(Some code(Some more code))
+
+## Functions 😄
+
+Finally for the most important part of Motes! If you find chunks of your code get used all the time, you can set them to a function and then call that code with just one character each time, so you only need to write it once!
+
+Here's a list of all the Emoji you can bind to functions (You will probably notice a pattern ;)
+
+## 😁 😂 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 😚 😐 😶 😏 😣 😥 😪 😫 😷
+## 😌 😜 😝 😒 😓 😔 😲 😖 😞 😤 😢 😭 😨 😩 😰 😱 😳 😵 😡 😠 😇
