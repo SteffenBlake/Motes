@@ -9,6 +9,8 @@ Step 2: Unzip the folder to a spot wherever you please, then open it and run Ins
 
 [Latest Release V1.0.1.0](https://github.com/SteffenBlake/Motes/releases/download/1.0.1.0/Motes.-.v1.0.1.0.zip)
 
+If you need an unzip software, [Winrar](http://www.rarlab.com/download.htm) is very popular
+
 Step 3: Make sure you restart your computer for the changes to apply!
 
 Step 4: Download your choice of editor. It needs to be capable of handling emoji! [Visual Studio Code](https://code.visualstudio.com/) works quite well!
@@ -98,9 +100,9 @@ It should be noted that a second 👻 on the same line will re-enable code after
 
 **<This Code will work>**👻*<This code won't!>*👻**<This Code will work again!>**
 
-👻*<This part is a comment>*
+👻*\<This part is a comment>*
 
-**<But on a newline code will start working again!>**👻*<Unless you put another at the end!>*
+**\<But on a newline code will start working again!>**👻*\<Unless you put another at the end!>*
 
 ## 🔗 Looping 🔗
 Writing the same code over and over is not just boring, but inefficient! Loops let you do repetative tasks easily! If you've ever worked with BEDMAS and recall how Brackets worked, it's basically the same thing!
@@ -125,9 +127,9 @@ About chains:
 It should be noted you can nest chains, which means put them inside of each other. For example:
 
 
-🔗<Some code>🔗<Some more code>➕➖
+🔗\<Some code>🔗\<Some more code>➕➖
 
-In this example, <Some code> is an outer loop checking ➖, and <Some more code> will run as an inner loop checking ➕, neat, huh? You can also imagine it in your head like this:
+In this example, \<Some code> is an outer loop checking ➖, and <Some more code> will run as an inner loop checking ➕, neat, huh? You can also imagine it in your head like this:
 
 (Some code(Some more code))
 
