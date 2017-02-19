@@ -195,3 +195,6 @@ If you have any questions, you can always email me at steffen.cole.blake@gmail.c
 I hope you enjoyed this brief tutorial on Motes. If you'd like to join in on this open source project, feel free to jump right in! All submissions for pull requests must test to be fully working, and must not remove currently existing features unless explicitly explained and verified.
 
 Take care and have a good day!
+
+#Join the team 
+ Do you want to collaborate? Join the project at https://projectgroupie.com/projects/203
