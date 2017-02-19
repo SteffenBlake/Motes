@@ -3,21 +3,24 @@ Motes is a new Emoji based programming language, designed for simplicity and fun
 
 ### Get Started! 😄
 
-Step 1: Grab your latest install zip of Motes from the link below!
+Step 1: Make sure you have your .net libraries up to date on your computer, you can download them from microsoft at the link below:
+[.NET 4.5](https://www.microsoft.com/en-ca/download/details.aspx?id=30653)
 
-Step 2: Unzip the folder to a spot wherever you please, then open it and run Installer.exe located within. This will setup your version of Motes and get everything ready.
+Step 2: Grab your latest install zip of Motes from the link below!
+
+Step 3: Unzip the folder to a spot wherever you please, then open it and run Installer.exe located within. This will setup your version of Motes and get everything ready.
 
 [Latest Release V1.0.2.0](https://github.com/SteffenBlake/Motes/releases/download/1.0.2.0/Motes.-.v1.0.2.0.zip)
 
 If you need an unzip software, [Winrar](http://www.rarlab.com/download.htm) is very popular
 
-Step 3: Make sure you restart your computer for the changes to apply!
+Step 4: Make sure you restart your computer for the changes to apply!
 
-Step 4: Download your choice of editor. It needs to be capable of handling emoji! [Visual Studio Code](https://code.visualstudio.com/) works quite well!
+Step 5: Download your choice of editor. It needs to be capable of handling emoji! [Visual Studio Code](https://code.visualstudio.com/) works quite well!
 
-Step 5: Create a .mot file anywhere you like on your computer and put some code in it (keep reading to learn how it works!)
+Step 6: Create a .mot file anywhere you like on your computer and put some code in it (keep reading to learn how it works!)
 
-Step 6: Save it as a .mot (important), then go to where you saved it and run the .mot file (double clicking should do the job!)
+Step 7: Save it as a .mot (important), then go to where you saved it and run the .mot file (double clicking should do the job!)
 
 It's that easy!
 
