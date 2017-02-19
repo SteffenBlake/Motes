@@ -30,7 +30,7 @@ Whats the difference? Well you can Read(📖) *and* Write(✍) to 💾, but you 
 Motes seperates Emoji into the following categories:
 
 ## Data 👓
-These are a lot like your toolbox Emoji. All the ones listed here let you change and modify the data you have going on in your program. Saving, Reading, and Writing are all handled here!
+These friends are a lot like your toolbox of Emoji. All the ones listed here let you change and modify the data you have. Saving, Reading, and Writing are all handled here!
 
 # 👈/👉 : Move Pointer
 These values move your Pointer left and right. They're two of your most important Emoji!
@@ -39,7 +39,7 @@ These values move your Pointer left and right. They're two of your most importan
 These friends will increases or decrease the value of your current index you are pointing at by 1. These two are also very important!
 
 # 💩 : Reset
-This silly little friend will set the value of your current index to 0, no matter what it's like right now!
+This silly little friend will set the value of your current pointed index to 0, no matter what it is!
 
 # ✍ : Write
 If you want to save something for later, this character will copy the value at your current index to Memory
@@ -60,9 +60,10 @@ This handy friend will make you point back to the very first index. So you can r
 This one is funny, it'll make your current index value a totally random number between 0 and 99! I wonder what kind of cool things you can do with that?
 
 ## I/O 💻
-You'll notice right away when you work with Motes,
+You'll notice right away when you work with Motes that it has a window everything runs in to show you what's happening. Without them you could run your program, but you'd never see what's happening!
 
-# 💯 : This
+# 💯 : Write Number
+This buddy will write the number value of your current index to the window. This 
 
 
 
