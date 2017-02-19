@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Diagnostics;
 
 namespace Motes
 {
@@ -23,8 +24,8 @@ namespace Motes
                 {
                     p = new StreamReader(p).ReadToEnd();
                 }
-
-                Functions F = new Functions(p.ToCharArray().Select(c => c.ToString()).ToList(), verbose);
+                List<int> test = p.UTFList();
+                Functions F = new Functions(p.UTFList(), verbose);
                 F.Run(0);
             }
 
