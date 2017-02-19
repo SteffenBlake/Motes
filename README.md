@@ -11,7 +11,8 @@ Step 2: Grab your latest install zip of Motes from the link below!
 
 Step 3: Unzip the folder to a spot wherever you please, then open it and run Installer.exe located within. This will setup your version of Motes and get everything ready.
 
-[Latest Release V1.0.2.0](https://github.com/SteffenBlake/Motes/releases/download/1.0.2.0/Motes.-.v1.0.2.0.zip)
+[Latest Release V1.0.2.0 x64](https://github.com/SteffenBlake/Motes/releases/download/1.0.3.0/Motes.v1.0.3.0.x64.zip)
+[Latest Release V1.0.2.0 x86](https://github.com/SteffenBlake/Motes/releases/download/1.0.3.0/Motes.v1.0.3.0.x86.zip)
 
 If you need an unzip software, [Winrar](http://www.rarlab.com/download.htm) is very popular
 
