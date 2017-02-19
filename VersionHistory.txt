@@ -1,0 +1,5 @@
+===========
+Ver 1.0.1.0
+===========
+-Added support for all Win7 compatible Emoji
+-Added ability to call functions (see ReadMe)
