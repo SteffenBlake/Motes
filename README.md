@@ -98,7 +98,7 @@ This is a neat trick! 👻 will make all code that comes after it on the same li
 
 It should be noted that a second 👻 on the same line will re-enable code after it on that line. For example:
 
-**<This Code will work>**👻*<This code won't!>*👻**<This Code will work again!>**
+**\<This Code will work>**👻*\<This code won't!>*👻**\<This Code will work again!>**
 
 👻*\<This part is a comment>*
 
