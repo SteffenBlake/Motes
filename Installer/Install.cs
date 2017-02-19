@@ -14,7 +14,7 @@ namespace Installer
             string exPath = Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
             string modPath = exPath;
             string system32 = "C:\\Windows\\System32\\";
-            string installPath = "C:\\Program Files (x86)\\Motes\\";
+            string installPath;
             string motes = "Motes.exe";
             string ico = "smiling.ico";
 
@@ -23,11 +23,13 @@ namespace Installer
             {
                 Console.WriteLine("x64 OS detected, installing x64 version.");
                 modPath += "\\x64\\";
+                installPath = "C:\\Program Files\\Motes\\";
             }
             else
             {
                 Console.WriteLine("x86 OS detected, installing x86 version.");
                 modPath += "\\x86\\";
+                installPath = "C:\\Program Files (x86)\\Motes\\";
             }
 
             try
