@@ -1,3 +1,6 @@
+#Join the team 
+ Do you want to collaborate? Join the project at https://projectgroupie.com/projects/203
+
 ### Motes 😎
 Motes is a new Emoji based programming language, designed for simplicity and fun! If you've ever been interested in learning to program, or are a experienced programmer looking for a fun new way to mess around, then Motes is for you!
 
@@ -194,7 +197,27 @@ If you have any questions, you can always email me at steffen.cole.blake@gmail.c
 # Contributing to the repo
 I hope you enjoyed this brief tutorial on Motes. If you'd like to join in on this open source project, feel free to jump right in! All submissions for pull requests must test to be fully working, and must not remove currently existing features unless explicitly explained and verified.
 
-Take care and have a good day!
 
-#Join the team 
- Do you want to collaborate? Join the project at https://projectgroupie.com/projects/203
+# Roadmap (reference for anyone looking to contribute)
+## Version 2.0 goals (functionality update):
+ ✔ Create installer system for x86/x64 versions (1.0)
+ ➖ Properly designed recursion and inheritance for sub routines (1.1)
+ ➖ Index/Mem/Func UI objects to show representations of the current state machine (1.2)
+ ➖ Addition of 🙊 🙉 🙊 Emoji to handle debug/warning levels (1.3)
+ ➖ Add ability to read user input as a number (⌨️) and as a raw string (👂) (1.4)
+ 
+## Version 3.0 goals (Documentation update)
+ ➖ Create wiki (2.0)
+ ➖ Design page for each currently existing supported emoji (2.1)
+ ➖ Automatically add latest version info to VersionHistory.txt (2.2)
+ ➖ Create concrete documentation for branching and pull/update procedure (2.3)
+ ➖ Impliment proper testing systems using NUnit (2.4)
+
+## Version 4.0 goals (Bells and Whistles update)
+ ➖ Impliment midi support (3.1) 🎼 🎹 🎷 🎺 🎸 🎻 🔔
+ ➖ Add methods to change font color and other visual changes to output (3.2)
+ ➖ Add ability to listen for keydown events (🎮) (3.3)
+ ➖ Add ability to move the cursor to specific horizontal and vertical positions (3.4)
+ 
+## Version 5.0 goals
+ ➖ ???
